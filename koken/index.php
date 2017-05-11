@@ -18,7 +18,7 @@
 
 		if ($host_header)
 		{
-			$host = $_SERVER['SERVER_ADDR'] . ':' . $_SERVER['50126'];//$_SERVER['SERVER_PORT'];
+			$host = $_SERVER['SERVER_ADDR'] . ':' $_SERVER['SERVER_PORT'];
 			$headers[] = 'Host: ' . $_SERVER['HTTP_HOST'];
 		}
 		else
